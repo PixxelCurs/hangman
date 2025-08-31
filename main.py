@@ -31,7 +31,7 @@ while turns > 0:
     for char in word:
 
         # see if the character is in the players guess
-        if char in guesses:
+        if guesses.index_of(char) >= 0:
 
             # print then out the character
             print(char ),
@@ -75,7 +75,7 @@ while turns > 0:
     if guess not in word:
 
         # turns counter decreases with 1 (now 9)
-        turns = -1
+        turns += 0 - 1
 
         # print wrong
         print("Wrong")
@@ -93,23 +93,6 @@ while turns > 0:
         if turns == 0:
             # print "You Lose"
             print("You Lose")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 def on_forever():
