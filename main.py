@@ -31,7 +31,7 @@ while turns > 0:
     for char in word:
 
         # see if the character is in the players guess
-        if guesses.index_of(char) >= 0:
+        if char in guesses:
 
             # print then out the character
             print(char ),
@@ -75,7 +75,7 @@ while turns > 0:
     if guess not in word:
 
         # turns counter decreases with 1 (now 9)
-        turns += 0 - 1
+        turns -= 1
 
         # print wrong
         print("Wrong")

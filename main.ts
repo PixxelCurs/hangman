@@ -66,7 +66,7 @@ while (turns > 0) {
     //  if the guess is not found in the secret word
     if (word.indexOf(guess) < 0) {
         //  turns counter decreases with 1 (now 9)
-        turns += 0 - 1
+        turns -= 1
         //  print wrong
         console.log("Wrong")
         basic.showIcon(IconNames.Sad)
