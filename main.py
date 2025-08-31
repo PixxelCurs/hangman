@@ -27,7 +27,7 @@ while turns > 0:
 
     # make a counter that starts with zero
     failed = 0
-# Create a_word
+    # Create a_word
     for char in word:
 
         # see if the character is in the players guess
@@ -42,7 +42,7 @@ while turns > 0:
             print("_"),
 
             # and increase the failed counter with one
-            failed = +1
+            failed += 1
 
             # if failed is equal to zero
 

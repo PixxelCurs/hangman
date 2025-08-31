@@ -32,7 +32,7 @@ while (turns > 0) {
             //  if not found, print a dash
             console.log("_")
             //  and increase the failed counter with one
-            failed = +1
+            failed += 1
         }
         
     }
