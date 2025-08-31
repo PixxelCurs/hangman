@@ -1,5 +1,6 @@
 let failed: number;
 let guess: string;
+//  Hallo TAysen
 function wait_sek(sekunden: number) {
     control.waitMicros(1000000 * sekunden)
 }

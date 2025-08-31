@@ -1,3 +1,4 @@
+# Hallo TAysen
 def wait_sek(sekunden: number):
     control.wait_micros(1000000 * sekunden)
 print(":)")
