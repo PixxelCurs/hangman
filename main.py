@@ -27,7 +27,7 @@ while turns > 0:
 
     # make a counter that starts with zero
     failed = 0
-# Create a_word
+    # Create a_word
     for char in word:
 
         # see if the character is in the players guess
@@ -42,7 +42,7 @@ while turns > 0:
             print("_"),
 
             # and increase the failed counter with one
-            failed = +1
+            failed += 1
 
             # if failed is equal to zero
 
@@ -75,7 +75,7 @@ while turns > 0:
     if guess not in word:
 
         # turns counter decreases with 1 (now 9)
-        turns = -1
+        turns -= 1
 
         # print wrong
         print("Wrong")
@@ -93,23 +93,6 @@ while turns > 0:
         if turns == 0:
             # print "You Lose"
             print("You Lose")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 def on_forever():
